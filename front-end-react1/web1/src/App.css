@@ -1,0 +1,184 @@
+.loading-message {
+  margin: 50px auto;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+header {
+  background-color: #151515;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 220px;
+}
+
+.header-container h1 {
+  font-weight: 400;
+  color: white;
+}
+
+.header-container h1 span {
+  font-weight: 500;
+  color: #FF9E47;
+}
+
+.updateBtn {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  color: white;
+  background-color: #FF9E47;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icons {
+  position: absolute;
+  right: 20px;
+}
+
+.search-bar input {
+  background-color: black;
+  border: 1px solid #474747;
+  padding: 14px 90px 14px 30px;
+  font-size: 16px;
+  border-radius: 12rem;
+  color: white;
+}
+
+.search-bar input::placeholder {
+  font-size: 18px;
+}
+
+.coin-body {
+  width: 100%;
+  margin: 50px 0;
+  margin-top: 100px;
+}
+
+.coin-body table {
+  margin: 0 auto;
+}
+
+table thead tr th {
+  color: #8C8C8C;
+  font: 14px;
+  font-weight: 500;
+  padding: 15px 0;
+}
+
+thead {
+  text-align: left;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 80px;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 350px;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 200px;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 130px;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  width: 150px;
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+  width: 150px;
+}
+
+th:nth-child(7),
+td:nth-child(7) {
+  width: 250px;
+}
+
+.coin-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.coin-symbol {
+  font-size: 18px;
+  font-weight: 400;
+  color: #737373;
+}
+
+td {
+  padding: 5px 0;
+}
+
+.name-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: left;
+}
+
+.ngtv {
+  background-color: #1A0707;
+  width: 80px;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 8px;
+  color: #FF4D4D;
+  font-weight: 700;
+}
+
+.pstv {
+  background-color: #0D2115;
+  width: 80px;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 8px;
+  color: #2BFF00;
+  font-weight: 700;
+}
+
+.last-updated {
+  width: 100%;
+  padding-top:75px;
+  text-align: center;
+}
+
+#project-info-card {
+  text-align: center;
+}
+
+#project-info-card ul {
+  list-style: none;
+}
+
+#project-info-card p span {
+  color: #FF9E47;
+}
+
+.integrant span {
+  color: #FF9E47;
+}
