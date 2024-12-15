@@ -20,7 +20,7 @@ db.defaults({ coins: [], lastUpdated: null }).write();
 // Função para buscar os dados da API e armazená-los no banco de dados
 const fetchDataWithFallback = async () => {
   try {
-    const response = await axios.get("https://openapivaa1.coinstats.app/coins?limit=50", {
+    const response = await axios.get("https://openapiv1.coinstats.app/coins?limit=50", {
       headers: {
         accept: "application/json",
         "X-API-KEY": "fny3SJtiyHFtfdNsfHo9gYt9G4pFiTDR9t3xdca9LkY=",
