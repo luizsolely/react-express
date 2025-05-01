@@ -5,9 +5,10 @@ Este é um projeto que busca e exibe preços atualizados de criptomoedas utiliza
 ## Estrutura do Projeto
 
 O projeto é dividido em duas partes principais:
+
 - **Frontend**: Uma aplicação React que exibe os preços e informações das criptomoedas
 - **Backend**: Uma API Express que gerencia as requisições para a API externa de criptomoedas
-- 
+
 ## Instalação
 
 Para começar a usar este projeto, siga estes passos:
@@ -49,7 +50,7 @@ Para começar a usar este projeto, siga estes passos:
 ## Tecnologias Utilizadas
 
 - **Backend**: Node.js, Express, Axios
-- **Frontend**: React, React Router, Chart.js
+- **Frontend**: React
 - **API de Dados**: API pública de criptomoedas (gratuita)
 
 ## Notas de Segurança
